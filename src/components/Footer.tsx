@@ -7,18 +7,15 @@ const Footer = () => {
         <div>
             <h1 className='w-full text-3xl font-bold py-4 text-green-400'>BootCoin.ke</h1>
             <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, culpa odit debitis saepe, expedita excepturi cumque quisquam molestias in itaque exercitationem corporis similique vero quia. Molestias quidem placeat et eius?</p>
-            <div className='flex md:w-[75%] my-6 justify-between'>
-                <FaDribbbleSquare size={25}/>
-                <FaFacebookSquare size={25}/>
-                <FaTwitterSquare size={25}/>
-                <FaInstagram size={25}/>
-                <FaGithubSquare size={25}/>
+            <div className='flex md:w-[30%] my-3 justify-between'>
+                <a href='https://twitter.com/chosenireri42' target='_blank' className='hover:bg-green-600 rounded-md'><FaTwitterSquare size={25}/></a>
+                <a href='https://github.com/Mureria/crypto-b2c-landing-page' target='_blank' className='hover:bg-green-600 rounded-md'><FaGithubSquare size={25}/></a>
+                <a href='' target='_blank' className='hover:bg-green-600 rounded-md'><FaDribbbleSquare size={25}/></a>
             </div>
         </div>
         <div className='lg:col-span-2 py-2 md:py-16 flex justify-between'>
             <div>
-            <h1 className='font-medium text-gray-400'>Solutions</h1>
-            <ul>
+            <h1 className='font-medium text-gray-400'>Solutions</h1>800       <ul>
                 <li className='py-2 text-sm'>Lorem, ipsum dolor.</li>
                 <li className='py-2 text-sm'>Lorem, ipsum dolor.</li>
                 <li className='py-2 text-sm'>Lorem, ipsum.</li>

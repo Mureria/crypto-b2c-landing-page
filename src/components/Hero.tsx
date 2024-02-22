@@ -12,7 +12,7 @@ const Hero = () => {
             <div className='flex justify-center items-center'>
                 <p className='py-4 md:text-5xl sm:text-4xl text-xl font-bold'>Fast, Flexible, Financing for</p>
                 <div className=' md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4'>
-                <Typed strings={['B2C','B2B','Others']} typeSpeed={120} backSpeed={130} loop className='md:text-5xl sm:text-4xl text-xl font-bold'/>
+                <Typed strings={['B2C','Agape','Others']} typeSpeed={120} backSpeed={130} loop className='md:text-5xl sm:text-4xl text-xl font-bold'/>
              </div>
             </div>
             <p className='md:text-2xl text-xl text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, illum!</p>
